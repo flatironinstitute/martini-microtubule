@@ -183,7 +183,6 @@ def update_cg_model(G_aa, Previous_CG, coeff):
     return GCG_new
 
 
-# Assuming G_aa and Previous_CG are already defined and populated
 GCG_new = update_cg_model(G_aa, Previous_CG, COEFF)
 
 def create_directory(directory_path):
