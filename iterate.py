@@ -25,7 +25,7 @@ def safe_copy(src, dst, directory=False):
         copy2(src, dst)
 
 # Securely copying directories and files
-safe_copy(f'../iter{PREV_ITER}/Bag/', './Bag/', directory=True)
+
 safe_copy(f'../iter{PREV_ITER}/attributes/', './attributes/', directory=True)
 safe_copy('./attributes/enm', './enm_cg_prev')
 safe_copy('./attributes/enm_a1b2', './enm_a1b2_cg_prev')
@@ -40,7 +40,7 @@ def concatenate_files(output_file, *input_files):
 concatenate_files('./cg_prev', './enm_cg_prev', './enm_a1b2_cg_prev')
 
 # Loading and configuring MDAnalysis
-univ = Universe('protofilament.gro')
+univ = Universe('./attributes/protofilament.gro')
 atom_selections = {
     'b1': (0, 1022, 424),
     'a1': (1022, 2067, 432),
@@ -193,7 +193,6 @@ def create_directory(directory_path):
 
 # Copying ENM files to attributes and Bag directories
 safe_copy('enm*', './attributes/')
-safe_copy('enm*', './Bag/')
 
 # Create next iteration directory and copy 'iterate.py'
 create_directory(next_iter_path)
