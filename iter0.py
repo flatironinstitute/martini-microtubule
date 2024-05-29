@@ -121,22 +121,3 @@ Var_min = np.min(Variances)
 gen_enm(nx.compose_all([graphs['b1b1'], graphs['a1a1'], graphs['a1b1']]), Var_min, ENM='enm', ENM_COMPARE='enm_compare')
 gen_enm(graphs['a1b2'], Var_min, ENM='enm_a1b2', ENM_COMPARE='enm_compare_a1b2')
 
-
-
-'''
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/enm /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/enm_a1b2 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/enm_compare /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/enm_compare_a1b2 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-
-
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/a1a1 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/b1b1 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/a1b1 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-os.system('cp /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/attributes/a1b2 /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Bag/')
-
-os.system('python /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/itp_modify_withallrestrained.py')
-os.system('python /mnt/home/asahoo/ceph/setups/MicroT/7sja/mart_6DPV/makeCG1/Iterative/iter1/Create/itp_modify_withallrestrained_ends.py')
-'''
-
-
