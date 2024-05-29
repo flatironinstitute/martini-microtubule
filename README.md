@@ -14,7 +14,7 @@ Scripts for Iteratively Refined Distance Based Elastic Network adapted for micro
 1. Distance fluctuation data from AA simulations in a pickled format.
 2. Initial elastic-network files: enm and enm_a1b2
 
-##iterate.py
+## iterate.py
 
 ### Inputs 
 1. Coarse-grained frame of a protofilament.
